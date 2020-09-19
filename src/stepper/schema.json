@@ -1,0 +1,30 @@
+
+[
+    {
+      
+      "fields": [
+     
+        {
+          "type": "",
+          "label": "",
+          "id": "",
+              "rules": {
+            "required": true
+          },
+          "model": {},
+          "show": true,
+          "colSize": 6,
+          "errorLabel": ""
+        }
+        
+      ]
+    }
+    
+       
+      
+       
+          
+          
+    
+  ]
+  

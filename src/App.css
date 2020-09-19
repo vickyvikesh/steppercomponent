@@ -1,0 +1,35 @@
+*{
+  border: 0;
+  margin: 0;
+}
+.content{
+  
+  width: 100%;
+  background: #f1f1f1;
+  text-align: center;
+}
+.progressbar {
+  counter-reset: step;
+  text-align: center;
+}
+.progressbar li {
+  list-style-type: none;
+  width: 33.3%;
+  float: left;
+  position: relative;
+
+}
+.progressbar li::before{
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #ddd;
+  display: block;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
+
